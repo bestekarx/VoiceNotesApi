@@ -1,0 +1,32 @@
+{
+  "name": "voicenotesapi",
+  "version": "1.0.0",
+  "description": "VoiceNotes TypeScript API with AssemblyAI integration",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "cross-env NODE_ENV=development ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["voice", "notes", "api", "assemblyai", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assemblyai": "^4.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.6",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "cross-env": "^7.0.3"
+  }
+}
