@@ -9,6 +9,15 @@
 
 VoiceNotes API is a RESTful service built with Node.js and TypeScript that provides audio transcription and summarization capabilities powered by AssemblyAI. The API handles audio file uploads, processes them through advanced speech-to-text technology, and returns transcriptions with AI-generated summaries.
 
+## 🔗 Related Projects
+
+This repository contains the **Backend API** (Node.js/TypeScript). For the complete platform:
+
+- **🚀 Backend API** (this repository): [https://github.com/bestekarx/VoiceNotesApi](https://github.com/bestekarx/VoiceNotesApi)
+- **📱 Mobile App**: [https://github.com/bestekarx/VoiceNotes](https://github.com/bestekarx/VoiceNotes)
+
+> **Note**: Both repositories work together to provide a complete voice note management solution. The mobile app provides the user interface and local storage, while this API handles AI-powered transcription and summarization.
+
 ## Features
 
 - **Audio Upload**: Support for multiple audio formats (MP3, WAV, M4A, OGG, WebM, AAC)
