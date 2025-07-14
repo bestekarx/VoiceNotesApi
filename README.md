@@ -68,3 +68,6 @@ voicenotesapi/
 ---
 
 **VoiceNotesApi** ile sesli notlarınızı akıllı şekilde yönetin ve özetleyin!
+
+# Trigger redeploy
+
